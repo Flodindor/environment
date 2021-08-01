@@ -58,7 +58,7 @@ services:
         target: /usr/share/logstash/pipeline
         read_only: true
       - type: bind
-        source: $LOGS_SOURCE_FOLDER/$LOGS_FILENAME
+        source: $LOGS_SOURCE_FOLDER
         target: /logs/logs.log
         read_only: true
     ports:
