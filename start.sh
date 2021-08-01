@@ -1,2 +1,2 @@
 #!/bin/sh
-docker-compose --project-name flodindor up
+docker-compose --project-name flodindor up -d
